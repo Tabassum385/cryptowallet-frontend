@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/((?!assets/|coin-icons/|ai-tools-logos/|favicon|cryptowallet-logo|manifest.webmanifest|pwa-icon|sw.js).*)",
+      "destination": "/index.html"
+    }
+  ]
+}
